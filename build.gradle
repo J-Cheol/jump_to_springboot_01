@@ -22,12 +22,24 @@ repositories {
 }
 
 dependencies {
+
+    // 타임리프
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+    // Web
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    // 롬북
     compileOnly 'org.projectlombok:lombok'
-    developmentOnly 'org.springframework.boot:spring-boot-devtools'
-    runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
+
+    // Devtools
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    // H2 데이터베이스
+    runtimeOnly 'com.h2database:h2'
+
+    // 테스트
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
