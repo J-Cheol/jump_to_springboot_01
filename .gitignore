@@ -35,3 +35,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### db파일 ###
+jumb_to_springboot_01.mv.db
+jumb_to_springboot_01.trace.db
