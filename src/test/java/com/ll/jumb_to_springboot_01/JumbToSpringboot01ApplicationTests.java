@@ -1,9 +1,9 @@
 package com.ll.jumb_to_springboot_01;
 
-import com.ll.jumb_to_springboot_01.Entity.Answer;
-import com.ll.jumb_to_springboot_01.Entity.Question;
-import com.ll.jumb_to_springboot_01.dao.AnswerRepository;
-import com.ll.jumb_to_springboot_01.dao.QuestionRepository;
+import com.ll.jumb_to_springboot_01.answer.entity.Answer;
+import com.ll.jumb_to_springboot_01.question.Entity.Question;
+import com.ll.jumb_to_springboot_01.answer.dao.AnswerRepository;
+import com.ll.jumb_to_springboot_01.question.dao.QuestionRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package com.ll.jumb_to_springboot_01.Entity;
+package com.ll.jumb_to_springboot_01.answer.entity;
 
-import com.ll.jumb_to_springboot_01.Entity.Question;
+import com.ll.jumb_to_springboot_01.question.Entity.Question;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

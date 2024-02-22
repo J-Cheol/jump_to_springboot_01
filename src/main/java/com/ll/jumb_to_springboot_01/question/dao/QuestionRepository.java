@@ -1,6 +1,6 @@
-package com.ll.jumb_to_springboot_01.dao;
+package com.ll.jumb_to_springboot_01.question.dao;
 
-import com.ll.jumb_to_springboot_01.Entity.Question;
+import com.ll.jumb_to_springboot_01.question.Entity.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
